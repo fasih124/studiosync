@@ -1,4 +1,4 @@
----
+ ---
 
 # ⚡ StudioSync — SaaS Landing Page
 
@@ -184,16 +184,16 @@ Built for gym owners ready to replace manual processes with a system that scales
   </tr>   
   <tr>
 
-  <td>    <img  src="./photos/01.png" /> </td>
-  <td>  <img  src="./photos/02.png" /></td>
+  <td>    <img  src="./photos/01.PNG" /> </td>
+  <td>  <img  src="./photos/02.PNG" /></td>
 
   </tr>
    <tr>
   <th>Features section</th><th> Google Sheet with Data</th>
   </tr>
   <tr>
-  <td> <img src="./photos/03.png" /></td>
-  <td> <img src="./photos/04.png" /></td>
+  <td> <img src="./photos/03.PNG" /></td>
+  <td> <img src="./photos/04.PNG" /></td>
 </tr>  
 </table>
 
