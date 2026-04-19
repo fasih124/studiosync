@@ -1,11 +1,13 @@
- --- 
- 
+---
+
 # ⚡ StudioSync — SaaS Landing Page
+
 ### Run your gym. Not spreadsheets.
 
 A high-converting, production-grade SaaS landing page designed to turn gym owners into qualified leads and free trial users — automatically.
 
-> Dont Add you real Mailin waiting list
+> Dont Add you real Mail in waiting list
+
 [ Live Demo ](https://studiosync-ten.vercel.app/) • [ GitHub ](https://github.com/fasih124/studiosync) • [ Portfolio ](https://www.buildbyfasih.me/)
 
 ---
@@ -35,9 +37,9 @@ Every membership renewal was tracked in a Google Sheet that was always outdated.
 
 The real cost wasn’t just time — it was trust.
 
-- Members showed up to full classes  
-- Staff missed shifts  
-- Renewals quietly expired  
+- Members showed up to full classes
+- Staff missed shifts
+- Renewals quietly expired
 
 Marcus wasn’t running a gym anymore.  
 He was running a **manual system held together by messages and guesswork**.
@@ -87,34 +89,43 @@ The technology stack was carefully chosen to ensure:
 ## 🧱 Tech Stack
 
 Frontend:
+
 - Next.js 14 (App Router)
 - React
 - TypeScript
 
 Styling:
+
 - Tailwind CSS
 - shadcn/ui
 
 Animations:
+
 - Framer Motion
 
 Backend / API:
+
 - Next.js API Routes (Serverless)
 
 Data Storage:
+
 - Google Sheets API
 
 Auth:
+
 - Google Cloud Service Account
 
 Icons:
+
 - Lucide React
 
 Fonts:
+
 - Syne (Headings)
 - DM Sans (Body)
 
 Deployment:
+
 - Vercel
 
 ---
@@ -127,6 +138,7 @@ The Google Sheets API requires a private RSA key for authentication.
 On Windows, this key caused silent failures due to incorrect formatting.
 
 To solve this:
+
 - The key was encoded using Base64
 - Stored securely in environment variables
 - Decoded at runtime inside the API route
@@ -143,6 +155,7 @@ The Features section includes multiple tabs with different content and UI layout
 Switching between them caused layout jumps and poor UX.
 
 Solution:
+
 - Used Framer Motion `AnimatePresence` with `mode="wait"`
 - Ensured smooth fade transitions without height shifts
 
@@ -173,7 +186,6 @@ Built for gym owners ready to replace manual processes with a system that scales
 
   <td>    <img  src="./photos/01.png" /> </td>
   <td>  <img  src="./photos/02.png" /></td>
-    
 
   </tr>
    <tr>
@@ -191,10 +203,10 @@ Built for gym owners ready to replace manual processes with a system that scales
 
 Perfect for:
 
-- SaaS MVP launches  
-- Startup validation  
-- Lead generation funnels  
-- Conversion-focused landing pages  
+- SaaS MVP launches
+- Startup validation
+- Lead generation funnels
+- Conversion-focused landing pages
 
 ---
 
@@ -202,10 +214,10 @@ Perfect for:
 
 If you're building:
 
-- A SaaS product  
-- A startup landing page  
-- A dashboard system  
-- A conversion-focused website  
+- A SaaS product
+- A startup landing page
+- A dashboard system
+- A conversion-focused website
 
 I can help you build something that doesn’t just look good —  
 it **drives results**.
